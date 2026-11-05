@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+ box-sizing: border-box;
+}
+
+.nav-sec {
+    background-color: #06002C;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 1% 3% 1% 3%;
+    align-items: center;
+}
+
+.nav-sec h1 {
+    font-size: 30px;
+    color: #75F94C;
+}
+
+.nav-sec .nav-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 14px;
+ 
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-sec .nav-menu li:hover {
+    color: #FFC830;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+.hero-sec {
+    background-color: #06002C;
+    color: white;
+    padding: 1% 3% 1% 3%;
+    height: 90vh;
+
+}
+
+.hero-sec .hero-sec-div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6%;
+    padding-bottom: 8%;
+}
+
+.hero-sec .hero-sec-div1 img {
+    height: 300px;
+    width: 300px;
+}
+
+.hero-sec .hero-sec-div1 h2 {
+    font-size: 45px;
+}
+
+.hero-sec .hero-sec-div1 p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.hero-sec .hero-sec-div1 h2 span {
+    color: #75F94C;
+}
+
+.hero-sec .hero-sec-div1 p span {
+    color: #FFC830;
+}
+
+.hero-sec .hero-sec-div1 button {
+    background-color: #FFC830;
+    border-radius: 30px;
+    padding: 2% 3% 2% 3%;
+    border: none;
+    font-weight: 500;
+    margin-top: 30%;
+    font-size: 14px;
+}
+
+.hero-sec .hero-sec-div1 img {
+    border-radius: 100%;
+    border: 3px solid #75F94C;
+}
+
+
+.hero-sec-div2 {
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.about-sec .about-sec-div1 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 3px solid #75F94C;
+}
+
+.about-sec {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 1% 3% 1% 3%;
+    gap: 5%;
+    height: 80vh;
+
+}
+
+.about-sec .about-sec-div2 p span {
+    color: red;
+}
+
+.about-sec .about-sec-div2 h2 {
+    padding-right: 672px;
+    padding-bottom: 1.5%;
+    font-size: 30px;
+}
+
+.about-sec .about-sec-div2 p {
+    text-align: justify;
+    padding-left: 1%;
+}
+
+.about-sec .about-sec-div2 h2 span {
+    color: #06002C;
+}
+
+/* here is st my skill section */
+
+.skill-section {
+    background-color: #06002C;
+    color: white;
+    padding: 1% 3% 1% 3%;
+    /* height: 70vh; */
+    /* align-content: center; */
+
+}
+
+
+.skill-section .skill-header1 {
+    display: flex;
+}
+
+.skill-header1 h2 {
+    font-size: 30px;
+    color: #75F94C;
+}
+
+.skill-section .skill-header1 img {
+    height: 35px;
+    width: 35px;
+}
+
+.skill-section .skill-paragraph {
+    padding: 3% 0% 3% 0%;
+}
+
+.skill-section .skill-header2 {
+    display: flex;
+    padding: 3% 0% 3% 0%;
+    gap: 50px;
+}
+
+.skill-section .skill-header2 h3 {
+    padding: 3% 0% 3% 11%;
+    color: #FFC830;
+}
+
+.skill-section .skill-header2 p {
+    padding: 3% 0% 3% 0%;
+    font-weight: 600;
+    text-align: justify;
+
+
+}
+
+.skill-section .skill-header2 img {
+    align-content: center;
+    padding: 0% 0% 0% 15%;
+}
+
+/* here is st my experience section */
+.exp-sec {
+    padding: 1% 3% 1% 3%;
+    text-align: justify;
+}
+
+.exp-sec-div .exp-div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
+}
+
+.exp-sec h2 {
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+
+.exp-sec .exp-sec-div h3 {
+    padding-bottom: 2%;
+}
+
+.exp-sec p {
+    font-size: 15px;
+}
+/* here is st my address section css */
+.address-sec {
+    background-color: #06002C;
+    width: 100%;
+    color: white;
+    padding: 1% 3% 1% 3%;
+}
+
+.address-sec h2 {
+    color: #75F94C;
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+.address-sec p{
+    padding-bottom: 1%;
+    padding-left: 10px;
+}
+
+
+
+
+
+/* here is st my footer section css */
+
+.footer-sec{
+    background-color: #06002C;
+    text-align: center;
+    color: white;
+   padding: 1% 3% 1% 3%;
+}
